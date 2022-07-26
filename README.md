@@ -9,3 +9,5 @@ Link -
 # Change Log
 
 .1 - imported starting code, beginning psudo-code and display date
+
+.2 - basic timeblock structure
