@@ -2,6 +2,7 @@ var currentText = document.getElementById("currentDay");
 var current = moment().format("dddd, MMMM Do YYYY");
 var currenthr = moment().format("HH:mm a");
 var startday = moment().startOf('hour');
+var savebtn = document.getElementById('saveBtn');
 
 
 currentText.textContent = current;
@@ -28,5 +29,10 @@ hours();
 // timeblocks for standard buisness hours ✅
 // color coded blocks ✅
 
+$(".description").click(function(){
+    console.log("click");
+})
 // change and save events in timeblock
+
+
 // refresh and events persist
