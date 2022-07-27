@@ -13,3 +13,5 @@ Link -
 .2 - basic timeblock structure
 
 .3 - improved timeblock structure 
+
+.4 - adding color coding function
